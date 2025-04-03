@@ -1,8 +1,7 @@
 import React from "react";
 import "./App.css";
-import { FunctionComponent } from "react";
 
-const List1: FunctionComponent = () => {
+const List1 = () => {
     return (
         <>
             <p><strong>Kaylie's favorite thrifts:</strong></p>

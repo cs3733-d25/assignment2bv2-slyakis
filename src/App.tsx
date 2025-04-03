@@ -11,6 +11,8 @@ import Title from "./Title.tsx";
 import Intro from "./Intro";
 import Hobby1 from "./Hobby1.tsx";
 import List1 from "./List1";
+import Table1 from "./Table1";
+import Form1 from "./Form1";
 
 function App() {
   return (
