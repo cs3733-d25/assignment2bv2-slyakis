@@ -16,7 +16,9 @@ function Intro(props) {
             </p>
             <p>
                 My name is {names[1]}. I'm a sophomore majoring in Computer Science at WPI.
-                I'm from Manchester, NH. I'm
+                I'm from Manchester, NH. I went to Manchester Memorial High School. I got into coding
+                from watching media online. I'm interested in front-end development, so I'm really
+                enjoying this project.
             </p>
         </>
     );
