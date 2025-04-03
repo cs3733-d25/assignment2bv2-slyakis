@@ -1,10 +1,11 @@
 import { useState } from 'react'
-import baking from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import Title from "./Title.tsx"
-import React from "react";
-import Intro from "./Intro";
+import Intro from "./Intro.tsx";
+import Hobby2 from "./Hobby2.tsx";
+import List2 from "./List2.tsx";
+import Table2 from "./Table2.tsx";
+import Form2 from "./Form2.tsx";
 
 function App() {
   return (
@@ -12,6 +13,12 @@ function App() {
       <div>
           <Title />
           <Intro username="Kaylie Quach / Christine Ngo" />
+          <h4>Kaylie's Hobby 1:</h4>
+          <h4>Christine's Hobby:</h4>
+          <Hobby2 />
+          <List2 />
+          <Table2 />
+          <Form2 />
       </div>
     </>
   )
