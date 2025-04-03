@@ -33,10 +33,53 @@
   }
 }
 
+.columns {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex: 1;
+  min-width: 250px;
+  padding: 1rem;
+}
+
 .card {
   padding: 2em;
 }
 
 .read-the-docs {
   color: #888;
+}
+
+.image-container {
+  width: 640px;
+  height: 360px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: center;
+
+}
+
+.image-container img {
+  width: 80%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.hobby-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.hobby-text {
+  text-align: center;
+  max-width: 80%;
 }
