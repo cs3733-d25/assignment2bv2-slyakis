@@ -64,3 +64,5 @@ const Form1 = () => {
         </>
     )
 }
+
+export default Form1;

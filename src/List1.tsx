@@ -1,4 +1,3 @@
-import React from "react";
 import "./App.css";
 
 const List1 = () => {
@@ -6,7 +5,7 @@ const List1 = () => {
         <>
             <p><strong>Kaylie's favorite thrifts:</strong></p>
             <ul>
-                <li style="color:red">Grime (356 Shrewsbury St, Worcester, MA)</li>
+                <li>Grime (356 Shrewsbury St, Worcester, MA)</li>
                 <li>Crompton Collective (138 Green St, Worcester, MA)</li>
                 <li>Salvation Army (72 Cambridge St, Worcester, MA)</li>
                 <li>Krazy Bargains (26395 E Baseline St, San Bernardino, CA)</li>
@@ -16,3 +15,5 @@ const List1 = () => {
         </>
     )
 }
+
+export default List1;

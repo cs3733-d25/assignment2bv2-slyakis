@@ -4,8 +4,8 @@ const Table1 = () => {
     return (
         <>
             <table className="collapse">
-                <caption style="font-size: 20px"><strong>Worcester Thrift Store Review</strong></caption>
-                <tr style="background-color: bisque">
+                <caption><strong>Worcester Thrift Store Review</strong></caption>
+                <tr>
                     <td>Name</td>
                     <td>Address</td>
                     <td>Price</td>
@@ -44,3 +44,5 @@ const Table1 = () => {
         </>
     )
 }
+
+export default Table1;
