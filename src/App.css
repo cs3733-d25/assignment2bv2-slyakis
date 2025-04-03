@@ -24,12 +24,6 @@ p {
   font-family: Georgia, serif;
 }
 
-ul {
-  list-style-type: circle;
-  display: inline-block;
-  text-align: left;
-}
-
 table, tr, th, td {
   border: 1px solid gray;
   padding: 8px 15px;
@@ -81,8 +75,6 @@ select {
   padding: 1rem;
 }
 
-.card {
-  padding: 2em;
 form {
   display: inline-block;
   text-align: left;
@@ -104,6 +96,7 @@ button {
 button:hover {
   background-color: #ab8078;
 }
+
 .image-container {
   width: 640px;
   height: 360px;

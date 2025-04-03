@@ -21,17 +21,22 @@ function App() {
           <Intro username="Kaylie Quach / Christine Ngo" />
           <div className="columns">
               <div className="column">
-                  <h4>Kaylie's Hobby:</h4>
+                  <h2>Kaylie's Hobby:</h2>
                   <Hobby1 />
                   <List1 />
+                  <br />
                   <Table1 />
+                  <br />
                   <Form1 />
               </div>
               <div className="column">
-                  <h4>Christine's Hobby:</h4>
+                  <h2>Christine's Hobby:</h2>
                   <Hobby2 />
                   <List2 />
+                  <br />
+                  <br />
                   <Table2 />
+                  <br />
                   <Form2 />
               </div>
           </div>

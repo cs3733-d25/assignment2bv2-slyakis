@@ -1,3 +1,5 @@
+import "../App.css";
+
 const Hobby2 = () => {
     return (
         <>

@@ -1,4 +1,4 @@
-import "../App.css";
+import '../List.css'
 
 const List1 = () => {
     return (
