@@ -3,14 +3,15 @@ import baking from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Title from "./Title.tsx"
+import React from "react";
+import Intro from "./Intro";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
       <div>
           <Title />
+          <Intro username="Kaylie Quach" />
       </div>
     </>
   )
