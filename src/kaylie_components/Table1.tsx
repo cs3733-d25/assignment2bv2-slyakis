@@ -1,4 +1,4 @@
-import "./App.css";
+import "../App.css";
 
 const Table1 = () => {
     return (
