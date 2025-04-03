@@ -6,11 +6,11 @@ const Table1 = () => {
             <table className="collapse">
                 <caption><strong>Worcester Thrift Store Review</strong></caption>
                 <tr>
-                    <td>Name</td>
-                    <td>Address</td>
-                    <td>Price</td>
-                    <td>Variety</td>
-                    <td>Quality</td>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Price</th>
+                    <th>Variety</th>
+                    <th>Quality</th>
                 </tr>
                 <tr>
                     <td>Grime</td>
