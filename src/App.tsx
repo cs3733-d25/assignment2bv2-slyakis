@@ -11,7 +11,7 @@ function App() {
     <>
       <div>
           <Title />
-          <Intro username="Kaylie Quach" />
+          <Intro username="Kaylie Quach / Christine Ngo" />
       </div>
     </>
   )
