@@ -1,42 +1,91 @@
 #root {
   max-width: 1280px;
-  margin: 0 auto;
+  margin: auto;
   padding: 2rem;
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+body {
+  color: black;
+  background-color: #f5dcd3;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1, caption {
+  text-align: center;
+  padding: 8px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+h1, h2, h3, h4, h5, h6, caption {
+  color: #cf7474;
+  font-family: Georgia, serif;
 }
 
-.card {
-  padding: 2em;
+p {
+  font-family: Georgia, serif;
 }
 
-.read-the-docs {
-  color: #888;
+ul {
+  list-style-type: circle;
+  display: inline-block;
+  text-align: left;
+}
+
+table, tr, th, td {
+  border: 1px solid gray;
+  padding: 8px 15px;
+}
+
+th {
+  background-color: #c2978f;
+}
+
+tr:nth-child(even) {
+  background-color: #e3c4bf;
+}
+
+.collapse {
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+input {
+  margin: 4px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+textarea {
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  resize: none;
+}
+
+select {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: Georgia, serif;
+}
+
+form {
+  display: inline-block;
+  text-align: left;
+}
+
+button {
+  padding: 8px 20px;
+  border-radius: 5px;
+  font-family: Georgia, serif;
+  background-color: #c2978f;
+  cursor: pointer;
+  border: none;
+  font-size: 14px;
+  color: white;
+  margin: auto;
+  display: block;
+}
+
+button:hover {
+  background-color: #ab8078;
 }

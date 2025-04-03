@@ -3,7 +3,7 @@ import "./App.css";
 const List1 = () => {
     return (
         <>
-            <p><strong>Kaylie's favorite thrifts:</strong></p>
+            <h4><strong>Kaylie's favorite thrifts:</strong></h4>
             <ul>
                 <li>Grime (356 Shrewsbury St, Worcester, MA)</li>
                 <li>Crompton Collective (138 Green St, Worcester, MA)</li>

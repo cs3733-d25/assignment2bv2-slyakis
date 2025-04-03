@@ -56,7 +56,6 @@ const Form2 = () => {
                 </select>
                 <br/>
                 <br/>
-                <br/>
                 <button type="button" id="submitbutton">Submit</button>
             </form>
         </>

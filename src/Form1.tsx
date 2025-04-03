@@ -59,7 +59,8 @@ const Form1 = () => {
                 <br/>
                 <textarea rows="2" cols="40" id="comments"></textarea>
                 <br/>
-                <input type="submit" id="submitButton" value="Submit"/>
+                <br/>
+                <button type="button" id="submitbutton">Submit</button>
             </form>
         </>
     )

@@ -18,15 +18,24 @@ function App() {
       <div>
           <Title />
           <Intro username="Kaylie Quach / Christine Ngo" />
-          <h4>Kaylie's Hobby 1:</h4>
+          <br />
+          <h2>Kaylie's Hobby:</h2>
           <Hobby1 />
+          <br />
+          <br />
           <List1 />
           <Table1 />
+          <br />
           <Form1 />
-          <h4>Christine's Hobby:</h4>
+          <br />
+          <h2>Christine's Hobby:</h2>
           <Hobby2 />
+          <br />
+          <br />
           <List2 />
+          <br />
           <Table2 />
+          <br />
           <Form2 />
       </div>
     </>
